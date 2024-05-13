@@ -1,0 +1,22 @@
+Name: imperviousness_2018
+Title: Imperviousness density 2018
+EodashIdentifier: TCD
+Description: Description placeholder for uc1 data.
+Themes:
+  - example theme
+Tags:
+  - example tag
+DataSource:
+  Spaceborne:
+    Satellite:
+      - example satellite
+    Sensor:
+      - example sensorname
+Agency:
+  - Example agency
+Resources:
+  - EndPoint: https://services.sentinel-hub.com
+    Name: Sentinel Hub
+    Type: byoc
+    CollectionId: c57f7668-2717-4529-93cc-5372bc96ebbe
+    LayerId: IMPERVIOUSNESS_2018
