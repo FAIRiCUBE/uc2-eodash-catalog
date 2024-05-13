@@ -17,5 +17,5 @@ Agency:
 Resources:
   - EndPoint: https://image.discomap.eea.europa.eu/arcgis/services/GioLandPublic/HRL_ImperviousnessDensity_2018/ImageServer/WMSServer
     Name: WMS
-    LayerId: HRL_ImperviousnessDensity_2018
+    LayerId: HRL_ImperviousnessDensity_2018:IMD_MosaicSymbology.rft
     Styles: [default]
