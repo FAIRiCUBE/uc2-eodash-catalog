@@ -1,5 +1,5 @@
 Name: imperviousness_density_2018
-Title: Imperviousness Density 2018
+Title: Imperviousness Density 2018 WMS
 EodashIdentifier: IMD
 Description: CLMS Imperviousness Density 2018 10m resolution.
 Themes:
@@ -15,6 +15,6 @@ DataSource:
 Agency:
   - EEA
 Resources:
-  - EndPoint: http://geoservices.buergernetz.bz.it/mapproxy/root/wms
+  - EndPoint: https://image.discomap.eea.europa.eu/arcgis/services/GioLandPublic/HRL_ImperviousnessDensity_2018/ImageServer/WMSServer
     Name: WMS
-    LayerId: 'oown-OpenStreetMap:CartoDarkMatter'
+    LayerId: 'HRL_ImperviousnessDensity_2018:IMD_MosaicSymbology.rft'
