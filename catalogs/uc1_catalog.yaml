@@ -8,3 +8,4 @@ assets_endpoint: "https://raw.githubusercontent.com/organization/assets-repo/mai
 collections:
   - tree_cover_density
   - imperviousness_2018
+  - CLMS_imperviousness_10m_2018
