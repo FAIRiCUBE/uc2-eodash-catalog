@@ -9,3 +9,4 @@ collections:
   - tree_cover_density
   - imperviousness_2018
   - CLMS_imperviousness_10m_2018
+  - sentinel2
