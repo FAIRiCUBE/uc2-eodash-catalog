@@ -1,0 +1,100 @@
+{
+  "type": "Collection",
+  "id": "LGN",
+  "stac_version": "1.0.0",
+  "description": "LGN Description placeholder",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Use case 2 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "child",
+      "href": "./LGN/collection.json",
+      "type": "application/json",
+      "title": "LGN",
+      "endpointtype": "rasdaman",
+      "code": "LGN",
+      "id": "LGN",
+      "themes": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "subcode": "LGN"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2021",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2021"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Use case 2 catalog for FAIRiCUBE"
+    }
+  ],
+  "themes": [
+    "placeholder"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "subcode": "LGN",
+  "title": "LGN",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.0464264021528984,
+          50.66920044818132,
+          7.275184335826915,
+          53.610957858593224
+        ],
+        [
+          3.0464264021528984,
+          50.66920044818132,
+          7.275184335826915,
+          53.610957858593224
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2012-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "LGN"
+    ],
+    "themes": [
+      "placeholder"
+    ]
+  }
+}

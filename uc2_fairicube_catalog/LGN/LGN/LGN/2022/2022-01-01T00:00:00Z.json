@@ -1,0 +1,47 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "2022-01-01T00:00:00Z",
+  "geometry": null,
+  "properties": {
+    "datetime": "2022-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://catalog:JdpsUHpPoqXtbM3@fairicube.rasdaman.com/rasdaman/ows",
+      "type": "image/png",
+      "title": "LGN",
+      "wms:layers": [
+        "LGN"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2022-01-01T00:00:00Z"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Use case 2 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "LGN"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "LGN"
+    }
+  ],
+  "assets": {},
+  "collection": "LGN"
+}

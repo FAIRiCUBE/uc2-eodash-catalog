@@ -1,0 +1,35 @@
+{
+  "type": "Catalog",
+  "id": "uc2_fairicube_catalog",
+  "stac_version": "1.0.0",
+  "description": "This catalog provides an oversight of all UC2 FAIRiCUBE related data",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Use case 2 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "child",
+      "href": "./LGN/collection.json",
+      "type": "application/json",
+      "title": "LGN",
+      "code": "LGN",
+      "id": "LGN",
+      "themes": [
+        "placeholder"
+      ],
+      "subcode": "LGN",
+      "tags": [
+        "placeholder"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://organization.github.io/repository/repository/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Use case 2 catalog for FAIRiCUBE"
+}
