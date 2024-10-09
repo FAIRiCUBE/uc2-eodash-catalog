@@ -1,0 +1,12 @@
+Name: LGN
+Title: LGN
+EodashIdentifier: LGN
+Description: LGN Description placeholder 
+Themes:
+  - placeholder
+Tags:
+  - placeholder
+Resources:
+  - EndPoint: https://catalog:JdpsUHpPoqXtbM3@fairicube.rasdaman.com/rasdaman/ows
+    Name: rasdaman
+    CoverageId: LGN
